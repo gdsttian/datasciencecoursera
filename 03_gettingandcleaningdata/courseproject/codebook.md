@@ -11,11 +11,11 @@ After the raw data file was downloaded and extracted to a directory, files in th
 - 'train/Inertial Signals/total_acc_y_train.txt': The acceleration signal from the smartphone accelerometer Y axis in standard gravity units 'g'. Every row shows a 128 element vector.
 - 'train/Inertial Signals/total_acc_z_train.txt': The acceleration signal from the smartphone accelerometer Z axis in standard gravity units 'g'. Every row shows a 128 element vector.
 - 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration for X axis.
-- - 'train/Inertial Signals/body_acc_y_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration for Y axis.
-- - 'train/Inertial Signals/body_acc_z_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration for Z axis.
+- 'train/Inertial Signals/body_acc_y_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration for Y axis.
+- 'train/Inertial Signals/body_acc_z_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration for Z axis.
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample for X axis. The units are radians/second. 
-- - 'train/Inertial Signals/body_gyro_y_train.txt': The angular velocity vector measured by the gyroscope for each window sample for Y axis. The units are radians/second. 
-- - 'train/Inertial Signals/body_gyro_z_train.txt': The angular velocity vector measured by the gyroscope for each window sample for Z axis. The units are radians/second. 
+- 'train/Inertial Signals/body_gyro_y_train.txt': The angular velocity vector measured by the gyroscope for each window sample for Y axis. The units are radians/second. 
+- 'train/Inertial Signals/body_gyro_z_train.txt': The angular velocity vector measured by the gyroscope for each window sample for Z axis. The units are radians/second. 
 - 'test/X_test.txt': Test data set.
 - 'test/y_test.txt': Test labels.
 - 'test/subject_test.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
