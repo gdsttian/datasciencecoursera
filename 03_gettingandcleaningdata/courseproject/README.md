@@ -37,14 +37,19 @@ To run the code will assume that the original data file was downloaded and extra
 
 ### Process Training Data
 Read and label training subject data
+
     subject_train <- read.table("./UCI HAR Dataset/train/subject_train.txt", header=FALSE,
                                 stringsAsFactors=FALSE)
     names(subject_train) <- "Subject"
+
 Read and label training labels data
+
     labels_train <- read.table("./UCI HAR Dataset/train/y_train.txt", header=FALSE,
                                stringsAsFactors=FALSE)
     names(labels_train) <- "Activity"
+
 Read training dataset
+
     dataset_train <- read.table("./UCI HAR Dataset/train/X_train.txt", header=FALSE,
                                 stringsAsFactors=FALSE)
 Extracts the mean() and std() of the training dataset
